@@ -13,7 +13,7 @@
 4. **Skills:**
     * JS (beginner)
     * HTML&CSS (beginner)
-   
+
 5. **Code example:**
 
 ```
@@ -60,7 +60,7 @@ const encrypt = (str) => {
     * [code-basics](https://code-basics.com/ru):
         * JavaScript
         * HTML
-        * CSS 
+        * CSS
       
 8. **English:**
     * A2 (i can talk about simple topics and read).
