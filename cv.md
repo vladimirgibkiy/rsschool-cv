@@ -1,18 +1,23 @@
 1. **Vladimir Gibky**
+
 2. **Contacts:**
     * **Location:** Minsk, Belarus
     * **E-mail:** gibkiy97@bk.ru
     * **Telegram:** [vladimirgibkiy](https://t.me/vladimirgibkiy)
     * **Github:** [vladimirgibkiy](https://github.com/vladimirgibkiy)
+   
 3. **About Me**</br>
         I chalenged myself in different fields. My major is thermal power engineering, but now I work as a lighting designer.
         For a long time I was interested in the field of programming and my goal was to become a front-end developer.
+
 4. **Skills:**
     * JS (beginner)
     * HTML&CSS (beginner)
+   
 5. **Code example:**
 
-```const encrypt = (str) => {
+```
+const encrypt = (str) => {
     let i = 0;
     let result = '';
     while (i < str.length) {
@@ -30,7 +35,9 @@
     }
     return result;
 };
+
 ```
+
 6. **Experience:**<br><br>
     * **mechanic** (*April 2018 - August 2019*) - repair of steam and gas turbine equipment.
         * [Belenergoremnaladka](https://www.bern.by/)<br><br>
@@ -46,13 +53,15 @@
         * [Local Systems](https://lsys.by/)<br><br>
     * **lighting design engineer**(*August 2024 - up to now*) - design of lighting.
         * [Arlight](https://arlight.by/)<br><br>
-7. **Education:**</br>
+      
+7. **Education:**
     * Belarusian National Technical University (*2014 - 2020*)
         * thermal power engineering and thermal engineering
     * [code-basics](https://code-basics.com/ru):
         * JavaScript
         * HTML
-        * CSS
+        * CSS 
+      
 8. **English:**
     * A2 (i can talk about simple topics and read).
    
