@@ -31,6 +31,21 @@
     return result;
 };
 ```
+6. **Experience:**<br><br>
+    * **mechanic** (*April 2018 - August 2019*) - repair of steam and gas turbine equipment.
+        * [Belenergoremnaladka](https://www.bern.by/)<br><br>
+    * **technician/engineer** (*August 2019 - March 2022*) - electrification of agricultural, industrial and municipal
+      facilities.Work in the production department.
+        * [Belselelektrosetstroy](https://www.bsess.by/)<br><br>
+    * **BIM engineer** (*March 2022 - February 2023*) - 3D modeling and design.
+        * [BIM Machine](https://bim-machine.ru/)<br><br>
+    * **lighting design engineer** (*March 2023 - July 2023*) - design of lighting and electrical installation products.
+        * [Electrovector](https://www.evr.by/)<br><br>
+    * **product manager** (*July 2023 - November 2023*) - organizing the supply of electrical low-voltage components for
+      the assembly of low-voltage complete devices and the automated creation of process control systems.
+        * [Local Systems](https://lsys.by/)<br><br>
+    * **lighting design engineer**(*August 2024 - up to now*) - design of lighting.
+        * [Arlight](https://arlight.by/)<br><br>
 7. **Education:**</br>
     * Belarusian National Technical University (*2014 - 2020*)
         * thermal power engineering and thermal engineering
