@@ -99,3 +99,79 @@ aside {
     text-decoration: none;
     color:  #ffd500;
 }
+
+
+main {
+
+    flex-direction: column;
+    background-color: #ededed;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.block {
+    background-color: #dddddd;
+    padding-left: 30px;
+    padding: 20px;
+}
+
+.main-title {
+    font-size: 16px;
+    font-weight: bold;
+    width: fit-content;
+    background-color: #f8cd3a;
+}
+
+#experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+
+#code-basics-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    gap: 5px;
+}
+
+.organization-link {
+    text-decoration: none;
+    color:  #0000EE;
+}
+
+.aside-information {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.organization-name {
+    margin-top: 5px;
+}
+
+.aside-title {
+    margin-bottom: 15px;
+}
+
+#code-basics-link {
+    color: #000000;
+    font-weight: bold;
+}
