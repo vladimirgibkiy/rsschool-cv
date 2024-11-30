@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CV Vladimir Gibkiy</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Montserrat&family=Poppins&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="apprentice.min.css">
+    <script src="highlight.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <nav>
+            <a href="#contacts">Contacts</a>
+            <a href="#about-me">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#code-example">Code example</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#english">English</a>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <aside>
+            <div class="photo-container">
+                <img id="photo" alt="photo" src="assets/photo.jpg">
+            </div>
+
+            <div class="aside-information">
+                <div>
+                    <p class="aside-title" id="contacts">Contacts:</p>
+                    <ul id="contacts-list">
+                        <li class="item-contact"><img src="assets/location_on_black_24dp.svg" alt=""> Minsk, Belarus
+                        </li>
+                        <li class="item-contact"><img src="assets/mail_black_24dp.svg" alt="">gibkiy97@bk.ru
+                        </li>
+                        <li class="item-contact"><img src="assets/telegram_black_24dp.svg" alt="">
+                            <a class="contact-link" href="https://t.me/vladimirgibkiy">https://t.me/vladimirgibkiy</a>
+                        </li>
+                        <li class="item-contact"><img src="assets/github-alt-brands.svg" alt="">
+                            <a class="contact-link" href="https://github.com/vladimirgibkiy">https://github.com/vladimirgibkiy</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p class="aside-title" id="skills">Skills:</p>
+                    <ul id="skills-list">
+                        <li>JS (beginner)</li>
+                        <li>HTML/CSS (beginner)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p class="aside-title" id="english">English:</p>
+                    A2 (i can talk about simple topics and read)
+                </div>
+            </div>
+
+        </aside>
+
+        <main>
+
+            <div class="block">
+                <h1>Vladimir Gibkiy</h1>
+            </div>
+
+            <div class="block">
+                <p class="main-title" id="about-me">About me</p><br>
+                <p>I chalenged myself in different fields. My major is thermal power engineering, but now I work as a
+                    lighting designer. For a long time I was interested in the field of programming and my goal was to
+                    become a front-end developer.</p>
+            </div>
+
+<!--            <div class="block">-->
+<!--                <p class="main-title" id="code-example">Code:</p><br>-->
+<!--                <code>-->
+<!--           <pre>-->
+<!--           const encrypt = (str) => {-->
+<!--                let i = 0;-->
+<!--                let result = '';-->
+<!--                while (i < str.length) {-->
+
+<!--                    if (i % 2 === 0 && i !== (str.length - 1)) {-->
+<!--                        result = `${result}${str[i + 1]}`;-->
+
+<!--                        } else if (i % 2 === 0 && i === (str.length - 1)) {-->
+<!--                            result = `${result}${str[i]}`;-->
+
+<!--                        } else if (i % 2 !== 0) {-->
+<!--                            result = `${result}${str[i - 1]}`;-->
+<!--                        }-->
+<!--                        i++;-->
+<!--                    }-->
+<!--                    return result;-->
+<!--             }-->
+<!--           </pre>-->
+<!--                </code>-->
+
+<!--            </div>-->
+
+            <div class="block">
+                <p class="main-title" id="experience">Experience:</p><br>
+                <ul id="experience-list">
+                    <li><b>mechanic</b> (<em>April 2018 - August 2019</em>) - repair of steam and gas turbine equipment.
+                        <ul class="organization-name">
+                            <li><a class="organization-link" href="https://www.bern.by/">Belenergoremnaladka</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li><b>technician/engineer</b> (<em>August 2019 - March 2022</em>) - electrification of
+                        agricultural, industrial and municipal facilities.Work in the production department.
+                        <ul class="organization-name">
+                            <li><a class="organization-link" href="https://www.bsess.by/">Belselelektrosetstroy</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li><b>BIM engineer</b> (<em>March 2022 - February 2023</em>) - 3D modeling and design.
+                        <ul class="organization-name">
+                            <li><a class="organization-link" href="https://bim-machine.ru/">BIM Machine</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li><b>lighting design engineer</b> (<em>March 2023 - July 2023</em>) - design of lighting and
+                        electrical installation products.
+                        <ul class="organization-name">
+                            <li><a class="organization-link" href="https://www.evr.by/">Electrovector</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li><b>product manager</b> (<em>July 2023 - November 2023</em>) - organizing the supply of
+                        electrical low-voltage components for the assembly of low-voltage complete devices and the
+                        automated creation of process control systems.
+                        <ul class="organization-name">
+                            <li><a class="organization-link" href="https://lsys.by/">Local Systems</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li><b>lighting design engineer</b> (<em>August 2024 - up to now</em>) - design of lighting.
+                        <ul class="organization-name">
+                            <li><a class="organization-link" href="https://arlight.by/">Arlight</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="block">
+                <p class="main-title" id="education">Education:</p><br>
+                <ul id="education-list">
+                    <li><b>Belarusian National Technical University</b> (<em>2014 - 2020</em>)
+                        <ul class="organization-name">
+                            <li><em>power engineering and thermal engineering</em></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="https://code-basics.com/ru" id="code-basics-link">code-basics:</a>
+                        <ul id="code-basics-list">
+                            <li>JavaScript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+
+        </main>
+    </div>
+
+    <footer>
+        <a id="github-link" href="https://github.com/vladimirgibkiy">My GitHub</a>
+    </footer>
+
+</div>
+
+</body>
+</html>

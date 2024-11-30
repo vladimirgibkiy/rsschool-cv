@@ -1,0 +1,190 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0 solid transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    width: 100%;
+}
+
+.container {
+    width: 100%; /* чтобы не был меньше чем 1000пикс */
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    height: 100%;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #f8cd3a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a {
+    color: #111111;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    transition-duration: 0.3s;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+}
+
+
+aside {
+    max-width: 370px;
+    background-color: #6b6b6b;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.photo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#photo {
+    margin: 10px;
+    width: 150px;
+}
+
+.item-contact {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #ffd500;
+}
+
+.contact-link {
+    text-decoration: none;
+    color:  #ffd500;
+}
+
+
+main {
+
+    flex-direction: column;
+    background-color: #ededed;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.block {
+    background-color: #dddddd;
+    padding-left: 30px;
+    padding: 20px;
+}
+
+.main-title {
+    font-size: 16px;
+    font-weight: bold;
+    width: fit-content;
+    background-color: #f8cd3a;
+}
+
+#experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+
+#code-basics-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    gap: 5px;
+}
+
+.organization-link {
+    text-decoration: none;
+    color:  #0000EE;
+}
+
+.aside-information {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.organization-name {
+    margin-top: 5px;
+}
+
+.aside-title {
+    margin-bottom: 15px;
+}
+
+#code-basics-link {
+    color: #000000;
+    font-weight: bold;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #ffd500;
+    justify-content: center;
+}
+
+#github-link {
+    text-decoration: none;
+    color: #000000;
+}
